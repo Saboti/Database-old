@@ -1173,6 +1173,7 @@ CREATE TABLE `ships` (
   `unit_4` smallint(5) UNSIGNED NOT NULL DEFAULT '0',
   `torp` mediumint(8) UNSIGNED NOT NULL DEFAULT '0',
   `rof` tinyint(3) UNSIGNED NOT NULL DEFAULT '1',
+  `rof2` tinyint(3) UNSIGNED NOT NULL DEFAULT '0',
   `ship_repair` int(11) NOT NULL DEFAULT '0',
   `ship_scrap` int(11) NOT NULL DEFAULT '0',
   `ship_name` varchar(50) NOT NULL DEFAULT '',
